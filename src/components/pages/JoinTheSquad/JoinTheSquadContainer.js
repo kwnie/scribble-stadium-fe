@@ -15,7 +15,7 @@ const JoinTheSquadContainer = ({ LoadingComponent, ...props }) => {
         <LoadingComponent message="Loading..." />
       )}
       {isAuthenticated && userInfo && (
-        <RenderJoinTheSquad {...props} userInfo={userInfo} user={user} />
+        <RenderJoinTheSquad {...props} userInfo={userInfo} />
       )}
     </>
   );

@@ -16,7 +16,7 @@ function ProfileModalContainer({ LoadingComponent, ...props }) {
         <LoadingComponent message="Loading..." />
       )}
       {isAuthenticated && userInfo && (
-        <ProfileRenderModal {...props} userInfo={userInfo} user={user} />
+        <ProfileRenderModal {...props} userInfo={userInfo} />
       )}
     </>
   );
