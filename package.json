@@ -1,6 +1,9 @@
 {
   "name": "story-squad",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": false,
   "license": "MIT",
   "repository": "github:Lambda-School-Labs/labs-spa-starter",
