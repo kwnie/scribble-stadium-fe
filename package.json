@@ -4,9 +4,6 @@
   "private": false,
   "license": "MIT",
   "repository": "github:Lambda-School-Labs/labs-spa-starter",
-  "engines": {
-    "node": "14.x"
-  },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@auth0/auth0-react": "^1.8.0",
@@ -50,11 +47,9 @@
     "styled-components": "^5.3.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev-server": "webpack-dev-server --open",
-    "build": "webpack -p",
+    "start": "craco start",
+    "build": "craco build",
     "test": "craco test --env=jest-environment-jsdom-sixteen",
-    "heroku-postbuild": "npm run build",
     "eject": "react-scripts eject",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
     "coverage": "npm test -- --coverage --watchAll=false",
