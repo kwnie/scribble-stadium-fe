@@ -53,7 +53,7 @@
     "dev-server": "webpack-dev-server --open",
     "heroku-postbuild": "npm run build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "run-script build",
     "test": "craco test --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
